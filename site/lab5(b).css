@@ -1,0 +1,27 @@
+body{
+  padding = 2%;
+}
+#btn1{
+  color: black;
+  background-color: white;
+  border-color: gray;
+  border-width: thin;
+  margin: 5px;
+}
+#btn1:hover{
+  background-color: #3DA0C8;
+  border-width: thin;
+  margin: 5px;
+}
+#btn2{
+  color: black;
+  background-color: white;
+  border-style: outset;
+  margin: 20px;
+}
+#btn2:hover{
+  color: white;
+  background-color: gray;
+  border-style: outset;
+  margin: 20px;
+}
