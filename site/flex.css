@@ -39,12 +39,27 @@ h1{
     50% { color: blue; }
     100% { color: black; }
   }
-#a:hover{
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5); 
-  background-color:blue;
+#a{
+
+  animation: exam 2s infinite ;
+border:2px SOLID blue;
+margin:2px;
+text-align:center;
+ width: 250px;
+  height: 40px;
+  background: green;
+  transition: width 2s, height 2s, transform 2s;
+}@keyframes exam {
+  from {background-color: blue;}
+  to {background-color: pink;}
 }
+
+#a:hover {
+  width: 450px;
+  height: 90px;
+  transform: rotate(20deg);
+}
+
   .c
   {
   	border: 5px outset pink;
